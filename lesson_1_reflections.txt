@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using diff will easily help me to check the error lines of bug, no need to 
+    check whole docs. Can be ignore the same part of docs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+
+    You might have to look back some good idea of your old version
+    In that case, looking old version is a good way to improve your current 
+    project. Other way is if you look back the bug in old version and you fix
+    it in the new one, it's very wealthy looking history to avoiding to make 
+    bugs next time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	
+	Manully submit changes will be more efficient, automatically save will lead 
+	history become very complex.
+    Fill in your answer here
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	 Mostly makes things easier. If they are ralted files, and you change one 
+	 file, if you don't update others the whole project won't be functional.
+	 If you do so, saving them in one commit will save time and a lot of works.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    First of all, you need to cd the right dictionary. Then you type command "
+    git log" to see the history. And the you copy the ID of your target version
+    and type "git diff" and two files ID to see the difference.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Doing good version control makes you can trace back which verion causes bug
+    and, you can use git checkout to change back to that version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    version management, version checkout, version comparation.
